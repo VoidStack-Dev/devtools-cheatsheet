@@ -2,7 +2,7 @@
   "name": "devtools-cheatsheet",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://VoidStack-Dev.github.io/devtools-cheatsheet",
+  "homepage": "https://voidstack-dev.github.io/devtools-cheatsheet",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
