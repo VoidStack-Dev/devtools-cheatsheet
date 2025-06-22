@@ -1,4 +1,4 @@
-﻿import { useState } from "react";
+import { useState } from "react";
 
 function CommandCard({ command, description }) {
   const [copied, setCopied] = useState(false);
@@ -10,17 +10,19 @@ function CommandCard({ command, description }) {
   };
 
   return (
-    <div className="bg-gray-800 text-white rounded-xl shadow-md p-4 mb-4">
+    <div className="bg-gray-800 rounded-2xl p-5 mb-4 shadow-lg hover:shadow-xl transition-shadow">
       <div className="flex justify-between items-start gap-2">
-        <code className="block text-lg font-mono text-green-400">{command}</code>
+        <code className="text-green-400 text-base md:text-lg font-mono break-all">
+          {command}
+        </code>
         <button
           onClick={handleCopy}
-          className="text-sm bg-gray-600 px-2 py-1 rounded hover:bg-gray-500"
+          className="text-xs md:text-sm bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded-md"
         >
           {copied ? "✅ Copied" : "📋 Copy"}
         </button>
       </div>
-      <p className="mt-2 text-sm text-gray-300">{description}</p>
+      <p className="mt-2 text-gray-300 text-sm md:text-base">{description}</p>
     </div>
   );
 }

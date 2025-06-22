@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "devtools-cheatsheet",
   "version": "1.0.0",
   "private": true,
@@ -16,6 +16,8 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "gh-pages": "^6.0.0",
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.15",
     "vite": "^5.0.0"
   }
 }
