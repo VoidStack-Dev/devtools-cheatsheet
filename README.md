@@ -39,15 +39,15 @@ cd devtools-cheatsheet
 npm install
 npm run dev
 
+
 Open http://localhost:5173 to view it in the browser.
+
 📦 Build & Deploy
-
 To deploy the app to GitHub Pages:
-
 npm run deploy
 
-🗃️ Project Structure
 
+🗃️ Project Structure
 .
 ├── public/              # Static files
 ├── src/
@@ -60,20 +60,8 @@ npm run deploy
 ├── postcss.config.js    # PostCSS config
 └── vite.config.js       # Vite config
 
-🤝 Contributing
 
+🤝 Contributing
 Pull requests are welcome!
 Feel free to open an issue if you want to suggest a new command category or report a bug.
-📜 License
 
-MIT © 2025 VoidStack-Dev
-
-
----
-
-### 📌 Next Step
-
-Copy this into a new file:
-
-```bash
-nano README.md
