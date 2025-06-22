@@ -1,6 +1,25 @@
-export default [
-  { command: "ls -la", description: "List files with detailed info" },
-  { command: "cd ~", description: "Go to home directory" },
-  { command: "pwd", description: "Print current directory" },
-  { command: "rm -rf folder", description: "Force delete a folder" }
+const linuxCommands = [
+  { command: "ls -la", description: "List all files with details, including hidden files" },
+  { command: "cd /path", description: "Change directory" },
+  { command: "pwd", description: "Print current working directory" },
+  { command: "mkdir new_folder", description: "Create a new directory" },
+  { command: "rm -rf folder", description: "Remove a directory and its contents" },
+  { command: "cp source.txt dest.txt", description: "Copy a file" },
+  { command: "mv file1 file2", description: "Rename or move a file" },
+  { command: "cat file.txt", description: "Display file content" },
+  { command: "head file.txt", description: "Show beginning of a file" },
+  { command: "tail -f log.txt", description: "Stream the end of a file in real-time" },
+  { command: "grep 'word' file", description: "Search for 'word' in file" },
+  { command: "find . -name '*.js'", description: "Find files by name recursively" },
+  { command: "chmod +x file", description: "Make a file executable" },
+  { command: "chown user:group file", description: "Change file owner and group" },
+  { command: "df -h", description: "Disk space usage in human-readable format" },
+  { command: "du -sh *", description: "Size of each item in current directory" },
+  { command: "top", description: "Show running processes" },
+  { command: "ps aux", description: "Display all running processes" },
+  { command: "kill -9 PID", description: "Kill process with given PID" },
+  { command: "tar -czvf archive.tar.gz folder", description: "Create a tar.gz archive" },
+  { command: "unzip file.zip", description: "Extract a ZIP file" },
+  { command: "sudo apt update && sudo apt upgrade", description: "Update & upgrade packages" },
 ];
+export default linuxCommands;
