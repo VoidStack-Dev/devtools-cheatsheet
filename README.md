@@ -39,6 +39,7 @@ cd devtools-cheatsheet
 npm install
 npm run dev
 
+---
 
 Open http://localhost:5173 to view it in the browser.
 
@@ -59,6 +60,7 @@ npm run deploy
 ├── tailwind.config.js   # Tailwind config
 ├── postcss.config.js    # PostCSS config
 └── vite.config.js       # Vite config
+---
 
 
 🤝 Contributing
